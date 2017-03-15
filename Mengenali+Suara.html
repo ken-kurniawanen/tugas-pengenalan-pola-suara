@@ -11831,7 +11831,7 @@ Library yang digunakan meliputi :</p>
 <li>horse1.wav</li>
 <li>horse2.wav</li>
 </ol>
-<p>Tujuh suara tersebut masing-masing di ekstraksi fiturnya. Untuk kasus ini saya menggunakan fitur Average Energy, pada library librosa namanya RMS(Root Mean Square) Energy</p>
+<p>Tujuh suara tersebut masing-masing di ekstraksi fiturnya. Untuk kasus ini saya menggunakan fitur Average Energy, pada library librosa namanya RMS(Root Mean Square) Energy. Segmentation tidak dilakukan karena klip audio cukup bersih dan hanya berisi suara hewan terkait. Preprocessing dilakukan pemotongan audio dengan hanya mengambil 2 detik pertama dari audio, dilakukan karena banyak suara silent setelah detik tersebut. Disamakan 2 detik semua agar hasil average energy nya berjumlah sama (memudahkan train dan predict).</p>
 
 </div>
 </div>
